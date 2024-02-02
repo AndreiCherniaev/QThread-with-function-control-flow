@@ -23,7 +23,14 @@ QString Worker::message() const
 }
 
 void mySleep(const quint32 t){
-    QThread::sleep(t);
+    static quint32 j;
+
+    for(quint32 i=0;i<t;i++){
+        QThread::sleep(1);
+        if(QThread::currentThread()->isInterruptionRequested()){
+            qDebug() << "How I can goto exit_LABEL?" << j++;
+        }
+    }
 }
 
 void f2(){

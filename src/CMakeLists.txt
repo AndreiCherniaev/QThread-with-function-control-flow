@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(QThread-with-moveToThread_console LANGUAGES CXX) #use for ${PROJECT_NAME}
+project(QThread-with-function-control-flow LANGUAGES CXX) #use for ${PROJECT_NAME}
 
 set(CMAKE_AUTOMOC ON)
 
