@@ -1,7 +1,5 @@
-# QThread-with-moveToThread_console
  Qt example how make multi-thread console app.
- Use cmake build system.
-
+ Based on https://github.com/AndreiCherniaev/QThread-with-moveToThread_console
 
 <p align="center">
   <img alt="image from article Правильная работа с потоками в Qt" src="https://habrastorage.org/webt/zs/py/t2/zspyt2yti1t8-mr6k708rer0rao.png" width="800">
